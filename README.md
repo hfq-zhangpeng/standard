@@ -138,3 +138,5 @@ jquery对象使用'$'开头。
 1. 构建正式tag首先更新当前分支，保证当前分支为最新。
 2. 上线完成之后，需要将开发分支合并至master上，并且存在其他正在开发分支需要从master上更新代码。
 
+
+文件命名与书写规范参考[腾讯imweb团队规范](http://imweb.github.io/CodeGuide/#js-variable-declaration)
