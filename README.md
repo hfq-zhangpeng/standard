@@ -85,6 +85,7 @@ jquery对象使用'$'开头。
 ### 变量声明
 一个函数作用域中所有变量声明提前到函数首部，除了for中使用的一次性变量。
 一行定义一个var。
+
     function doSomethingHandle() {
         var num;
         var value;
