@@ -68,30 +68,30 @@
 构造函数大写第一个字母。
 jquery对象使用'$'开头。
 
-    var thisIsObj;
+    let thisIsObj;
 
-    var myID, myURL;
+    let myID, myURL;
 
-    var isAndroid, iOSVersion;
+    let isAndroid, iOSVersion;
 
-    var MAX_COUNT = 6;
+    let MAX_COUNT = 6;
 
     function Person(name) {
         ...
     }
 
-    var $body = $('body');
+    let $body = $('body');
 
 ### 变量声明
 一个函数作用域中所有变量声明提前到函数首部，除了for中使用的一次性变量。
 一行定义一个var。
 
     function doSomethingHandle() {
-        var num;
-        var value;
-        var COUNT = 5;
-        for(var i = 0; i < COUNT; i++){
-            var something;
+        let num;
+        let value;
+        let COUNT = 5;
+        for(let i = 0; i < COUNT; i++){
+            let something;
             ...
         }
     }
@@ -129,6 +129,7 @@ jquery对象使用'$'开头。
 
 ### 函数定义使用规范
 模块内定义函数禁止使用赋值的形式声明。
+
     // bad code
     let fn = function(){}
 
@@ -136,6 +137,7 @@ jquery对象使用'$'开头。
     function fn(){}
 
 箭头函数禁止用于函数的定义，可以用于作为参数传值时的定义。
+
     // bad code
     let fn = () => {};
 
